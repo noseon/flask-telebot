@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_telebot import TeleBot
+from flask import Flask, render_template
 
 app = Flask(__name__)
 app.config['TELEBOT_TOKEN'] = '6294585980:AAH8WFD-CbbMfV6ZEtYV36m58qPGHvQTxjY'
